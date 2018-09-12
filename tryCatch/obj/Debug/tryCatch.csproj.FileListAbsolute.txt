@@ -1,0 +1,11 @@
+C:\Users\anuar\source\repos\tryCatch\tryCatch\bin\Debug\tryCatch.exe.config
+C:\Users\anuar\source\repos\tryCatch\tryCatch\bin\Debug\tryCatch.exe
+C:\Users\anuar\source\repos\tryCatch\tryCatch\bin\Debug\tryCatch.pdb
+C:\Users\anuar\source\repos\tryCatch\tryCatch\bin\Debug\DivisionOfNumbers.dll
+C:\Users\anuar\source\repos\tryCatch\tryCatch\bin\Debug\DivisionOfNumbers.pdb
+C:\Users\anuar\source\repos\tryCatch\tryCatch\obj\Debug\tryCatch.csprojResolveAssemblyReference.cache
+C:\Users\anuar\source\repos\tryCatch\tryCatch\obj\Debug\tryCatch.csproj.CoreCompileInputs.cache
+C:\Users\anuar\source\repos\tryCatch\tryCatch\obj\Debug\tryCatch.exe
+C:\Users\anuar\source\repos\tryCatch\tryCatch\obj\Debug\tryCatch.pdb
+C:\Users\anuar\source\repos\tryCatch\tryCatch\bin\Debug\MyArray.dll
+C:\Users\anuar\source\repos\tryCatch\tryCatch\bin\Debug\MyArray.pdb

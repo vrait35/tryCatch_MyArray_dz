@@ -1,0 +1,6 @@
+C:\Users\anuar\source\repos\tryCatch\MyArray\bin\Debug\MyArray.dll
+C:\Users\anuar\source\repos\tryCatch\MyArray\bin\Debug\MyArray.pdb
+C:\Users\anuar\source\repos\tryCatch\MyArray\obj\Debug\MyArray.csprojResolveAssemblyReference.cache
+C:\Users\anuar\source\repos\tryCatch\MyArray\obj\Debug\MyArray.csproj.CoreCompileInputs.cache
+C:\Users\anuar\source\repos\tryCatch\MyArray\obj\Debug\MyArray.dll
+C:\Users\anuar\source\repos\tryCatch\MyArray\obj\Debug\MyArray.pdb
