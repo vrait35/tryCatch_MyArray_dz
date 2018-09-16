@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 namespace MyArray
 {
     public class MyArray<T>
-    {
-        public int Count { get; set; }
+    {        
         public T[] Array { get; set; }
         public int Capacity { get; set; }
         public T this[int index]
@@ -21,15 +20,7 @@ namespace MyArray
             {
                 try
                 {
-                    try
-                    {
-                            T buf = Array[index];                        
-                    }
-                    catch
-                    {
-                        Count++;
-                    }
-                    Array[index] = value;                    
+                    Array[index] = value;
                 }
                 catch
                 {
@@ -40,8 +31,7 @@ namespace MyArray
 
         public MyArray()
         {
-            Array = null;
-            Count = 0;
+            Array = new T[0];         
             Capacity = 0;
         }
 
@@ -53,34 +43,21 @@ namespace MyArray
 
         public void Resize(int newSize)
         {
-            if (Count > 0)
-            {
-                T[] buf = new T[Count];
-                for (int i = 0; i < Count; i++)
+           
+                T[] buf = new T[Capacity];
+                for (int i = 0; i < Capacity; i++)
                     buf[i] = Array[i];
 
                 Array = new T[newSize];
-
-                int min = Math.Min(newSize, Count);
+              
+                int min = (newSize > Capacity) ? Capacity : newSize;
 
                 for (int i = 0; i < min; i++)
                     Array[i] = buf[i];
-
-                Count = min;
-            }
-            else if (Count == 0)
-            {
-                Array = new T[newSize];
-            }
+                
             Capacity = newSize;
-        }
+            }                 
+    }
 
-        public void Show()
-        {
-            foreach(T a in Array)
-                Console.Write(a+"  ");
-            Console.WriteLine("\n");
-        }
 
     }
-}
